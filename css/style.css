@@ -1,0 +1,102 @@
+/* 
+    Created on : 31/07/2017, 12:41:19
+    Author     : Junyor Lopes
+*/
+html, body {
+    left: 0;
+    top: 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 100%; 
+    width: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        border-style: none; 
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
+    navbar-toggle {
+        border-style: none;
+    }
+}
+
+.nav-pos-1 {
+    background: transparent; 
+    position: fixed;
+    transition: all ease .5s;
+}
+            
+.nav-pos-2 {
+    background: tan; 
+    position: fixed;
+    transition: all ease .5s;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+/* Cor navbar */
+.navbar-default {
+    font-size: 18px;
+}
+
+/* Título navbar */
+.navbar-brand {
+   font-size: 20px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #1ab394;
+    background-color: #1ab394;
+}
+
+section {
+    min-height: 100%;
+    padding: 100px 10%;
+    background: white;
+}
+
+#sectionFirst{
+    min-height: 30px;
+    background-color: #935d8c;
+    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+}
+
+#section01 {
+    left: 0;
+    height: 100%;
+    background-size: cover;
+    background: url('../image/background02.jpg') no-repeat fixed center;
+    background-size: 100% 100%;
+}
+
+#section02 {
+    
+}
+
+ #avatar {
+    margin-top: 5px;
+    width:220px;
+    height:220px;
+}
+/* Contorno imagem JR */
+#circule {
+    width:230px;
+    height:230px;
+    background: grey;
+    border-radius: 50%;
+}

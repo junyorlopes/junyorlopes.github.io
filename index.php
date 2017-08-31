@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>junyorlopes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='shortcut icon' href="image/play-button.png"/>
+        <link href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+         
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendor/animate/css/animate.css">
+        <link href="css/default.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand font scrollSuave" href="#intro">junyor<b>lopes</b></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about" class="scrollSuave">about</a></li>
+                        <li><a href="#skills" class="scrollSuave">skills</a></li>
+                        <li><a href="#projects" class="scrollSuave">projects</a></li>
+                        <li><a href="#contact" class="scrollSuave">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="intro" class="sections">
+            <div id="circule" class="text-center center-block wow fadeIn" data-wow-duration="1.5s">
+                <img id="avatar" class="img-circle wow fadeIn" data-wow-duration="1.5s" src="image/avatar.jpg">
+            </div>
+            <div class="intro-text" style="">
+                <label class="wow fadeIn" data-wow-duration="1.5s">Desenvolvedor de Sistemas</label>
+            </div>
+            <div class="col-md-12">
+                <ul class="social-network social-circle">
+                    <li><a href="#" class="icoRss wow fadeInUp" data-wow-duration="1.5s" title="Rss"><i class="fa fa-rss"></i></a></li>
+                    <li><a href="#" class="icoFacebook wow fadeInUp" data-wow-duration="1.5s" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="icoGitHub wow fadeInUp" data-wow-duration="1.5s" title="Twitter"><i class="fa fa-github"></i></a></li>
+                    <li><a href="#" class="icoGoogle wow fadeInUp" data-wow-duration="1.5s" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#" class="icoLinkedin wow fadeInUp" data-wow-duration="1.5s" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                </ul>				
+            </div>
+        </section>
+        <section id="about" class="sections">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 title">
+                        <label>about</label>
+                    </div>
+                    <div class="col-md-12 subtitle" style="">
+                        <label>profissional</label>
+                    </div>
+                    <div class="col-md-12 description">
+                        <b>Crie</b> seu mundo, <b>inove</b> suas artes e <b>seja hoje</b> aquilo que <b>desejou ontem</b>.
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="social-network social-circle">
+                            <li><i class="fa fa-user-o cor-detalhes"></i></a></li><br>
+                        </ul>
+                        <h3>Perfil</h3>
+                        <h4>Vou inserir alguma descrição aqui.</h4>
+                        <!--<h4><i>"Adaptabilidade, bom humor, responsabilidades, dedicação ao trabalho e bom relacionamento em geral sempre foi algo que me destaquei, focando nos objetivos da empresa."</i></h4>-->
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="social-network social-circle">
+                            <li><i class="fa fa-lightbulb-o cor-detalhes"></i></a></li><br>
+                        </ul>
+                        <h3>Insights</h3>
+                        <h4>Vou inserir alguma descrição aqui.</h4>
+                         <!--<h4><i>"Não há nada mais desafiante que pensar fora da caixa, pois lá estão as nossas maiores conquistas mesmo quando dizem que não dará certo."</i></h4>-->
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="social-network social-circle">
+                            <li><i class="fa fa-heart-o cor-detalhes"></i></a></li><br>
+                        </ul>
+                        <h3 class="">Hobbies</h3>
+                        <h4>Vou inserir alguma descrição aqui.</h4>
+                         <!--<h4><i>Passa tempo com família e amigos.</i></h4>
+                        <h4><i>Conhecer novos áres.</i></h4>
+                        <h4><i>Passa tempo com família e amigos.</i></h4>-->
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <hr class="hr-state">
+        <section id="skills" class="sections">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 title">
+                        <label>skills</label>
+                    </div>
+                    <div class="col-md-12 subtitle" style="">
+                        <label>Minhas habilidades</label>
+                    </div>
+                    <div class="col-md-12 description">
+                        <label>Dentre as linguagens de programação, segue minhas habilitades com elas.</label>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="progress php">
+                            <span class="progress-left">
+                                <span id="php-1" class=""></span>
+                            </span>
+                            <span class="progress-right">
+                                <span id="php-2" class=""></span>
+                            </span>
+                            <div class="progress-value"><label class="cor-detalhes">80%</label></div>
+                        </div>
+                        <h4>PHP</h4>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="progress csharp">
+                            <span class="progress-left">
+                                <span id="csharp-1" class=""></span>
+                            </span>
+                            <span class="progress-right">
+                                <span id="csharp-2" class=""></span>
+                            </span>
+                            <div class="progress-value"><label class="cor-detalhes">79%</label></div>
+                        </div>
+                        <h4>C#</h4>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="progress mysql">
+                            <span class="progress-left">
+                                <span id="mysql-1" class=""></span>
+                            </span>
+                            <span class="progress-right">
+                                <span id="mysql-2" class=""></span>
+                            </span>
+                            <div class="progress-value"><label class="cor-detalhes">75%</label></div>
+                        </div>
+                        <h4>MYSQL</h4>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="progress java">
+                            <span class="progress-left">
+                                <span id="java-1" class=""></span>
+                            </span>
+                            <span class="progress-right">
+                                <span id="java-2" class=""></span>
+                            </span>
+                            <div class="progress-value"><label class="cor-detalhes">72%</label></div>
+                        </div>
+                        <h4>JAVA</h4>
+                    </div>  
+                </div>
+            </div>
+        </section>
+        <hr class="hr-state">
+        <section id="projects" class="sections">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-md-12 title">
+                        <label>projects</label>
+                    </div>
+                    <div class="col-md-12 subtitle" style="">
+                        <label>Design, Estrutura e Programação</label>
+                    </div>
+                    <div class="col-md-12 description">
+                        <label>Demonstração dos projetos desenvolvidos.</label>
+                    </div>
+                    <div class="col-md-12 projects">
+                        <div class="col-md-5">
+                            <h2 class="cor-detalhes"><b>Matrimonial</b></h2>
+                            <h4>Página virtual dos noivos, divulgando sua história, fotos e experiências.</h4>
+                        </div>
+                        <div class="col-md-7">
+                            <img class="dm" src="image/casamento.gif" alt="Generic placeholder image">
+                        </div>
+                    </div>
+                    <div class="col-md-12 ">
+                    <hr class="hr-state" style="margin: 10px 0 10px 0;">
+                    </div>
+                    <div class="col-md-12 projects">
+                        <div class="col-md-7">
+                            <img class="dm" src="image/teste22.PNG" alt="Generic placeholder image" >
+                        </div>
+                        <div class="col-md-5 text-center" style="">
+                            <h2 class="cor-detalhes"><b>Acadêmico</b></h2>
+                            <h4>Plataforma que porporciona a troca de mensagens, documentos e vinculos entre alunos e professores de uma instituição de ensino.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="hr-state">
+        <section id="contact" class="sections">
+            <div class="container">
+                <div class="row">
+                    <h1>contact</h1>
+                </div>
+                <div class="row">
+                    <h4 style="text-align:center">Entre em contato, sua mensagem será enviada para o meu email.</h4>
+                </div>
+                <form method="POST" action="processa.php">
+                    <div class="row input-container">
+                        <div class="col-xs-12">
+                            <div class="styled-input wide">
+                                <input type="text" required name="nome" placeholder=""/>
+                                <label>Nome</label> 
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="styled-input wide">
+                                <input type="email" required name="email" placeholder=""/>
+                                <label>Email</label> 
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="styled-input wide">
+                                <textarea required name="mensagem" rows="4" cols="5"></textarea>
+                                <label>Mensagem</label>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <input class="btn-lrg submit-btn" type="submit" value="Enviar" placeholder="Enviar">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://areaaperta.com/nicescroll/js/jquery.nicescroll.min.js"></script>
+        <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <script src="vendor/animate/js/wow.min.js"></script>
+        <script src="js/scrolling.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script>
+            $(document).ready(function () {
+                $("html").niceScroll();
+            });
+        </script>
+    </body>
+</html>

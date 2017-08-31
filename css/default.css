@@ -1,0 +1,594 @@
+/* 
+    Created on : 03/08/2017, 13:26:35
+    Author     : Junyor Lopes
+*/
+/* Config. padrão da página */
+html, body {
+    left: 0;
+    top: 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 100%; 
+    width: 100%;
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f3f3f4;
+    color: #676a6c;
+}
+@media (min-width: 767px){
+    /* Dimensões da navbar antes do scrolling */
+    .navbar {
+        border-radius: 0px;
+        padding: 20px 50px 20px 50px;
+    }
+    /* Dimensões da navbar antes do scrolling */
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+/* Cor da navbar antes do scrolling */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    transition: all ease .5s;
+}
+/* Cor da navbar após o do scrolling */
+.navbar-default-2 {
+    background-color: #676a6c;
+    border-color: #676a6c;
+    transition: all ease .5s;
+}
+/* Cor do título e itens do menu no scroll */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Cor do título e itens do menu no scroll quando passado o mouse */
+a:hover, a:focus {
+    color: #f3f3f4;
+    text-decoration: none;
+}
+/* Cor do título do menu no scroll quando passado o mouse */
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #f3f3f4;
+    background-color: transparent;
+}
+/* Cor dos itens do menu no scroll quando passado o mouse */
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #333;
+    background-color: transparent;
+}
+/* Cor do título do menu */
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+/* Cor do título do menu quando passado o mouse ou clicado */
+.navbar-default:hover, .navbar-brand:hover {
+    color: #f3f3f4;
+}
+/* Cor dos itens do menu */
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+/* Cor dos itens do menu quando passado o mouse */
+.navbar-default:hover .navbar-nav:hover>li:hover>a:hover {
+    color: #fff;
+}
+/* Cor dos itens do menu quando passado o mouse após o scroll */
+.nav>li>a:focus, .nav>li>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+/* Borda botão menu responsivo */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+/* Cor botão menu responsivo quando setado ou passado o mouse */
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+/* Cor dos icones dentro do botão menu responsivo*/
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+/* Cor dos icones dentro do botão menu responsivo*/
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+/* Sessões da página */
+.sections {
+    text-align: center;
+    min-height: 100%;
+    z-index: 1;
+}
+/* Introdução da página */
+#intro {
+    min-height: 113%;
+    padding-top: 250px;
+    background: url(../image/background02.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+/* Formatação do texto de apresentação */
+.intro-text {
+    font-size: 25px; 
+    margin-top: 20px; 
+    display: inline;
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+    color: #f3f3f4;
+    text-shadow: 2px 2px #000;
+}
+/* Imagem */
+#avatar {
+    margin-top: 5px;
+    width: 250px;
+    height: 250px;
+}
+/* Circulo da imagem */
+#circule {
+    width:260px;
+    height:260px;
+    background: #36f0fb;
+    border-radius: 50%;
+}
+/* Formatação dos icones sociais */
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+}
+/* Formatação dos icones sociais */
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+/* Cor social icons */
+.social-network a.icoRss:hover {
+    background-color: #F56505;
+}
+/* Cor do icone facebook */
+.social-network a.icoFacebook:hover {
+    background-color:#3B5998;
+}
+/* Cor do icone github */
+.social-network a.icoGitHub:hover {
+    background-color:#676a6c;
+}
+/* Cor do icone google */
+.social-network a.icoGoogle:hover {
+    background-color:#BD3518;
+}
+/* Cor do icone linkedin */
+.social-network a.icoLinkedin:hover {
+    background-color:#007bb7;
+}
+/* Cor dos icones ao passar o mouse */
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoGitHub:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoLinkedin:hover i {
+    color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+}
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+.social-circle i {
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+/* Sobre */
+#about {
+    padding: 100px 0 20px 0; 
+    background-color: #f3f3f4;
+}
+/* Título da página */
+.title {
+    font-family: 'Gochi Hand', cursive; 
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+/* Subtítulo da página */
+.subtitle {
+    font-family: 'Audiowide', cursive; 
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+/* Descrição da página */
+.description {
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+/* Habilidades */
+#skills {
+    padding: 100px 0 20px 0;
+    position: relative;
+}
+/* Controle da opacidade do background */
+#skills:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../image/77.jpg) no-repeat center fixed;
+    width: 100%;
+    height: 100%;
+    opacity : 0.2;
+    z-index: -1;
+}
+/* Dimenssões dos iconês */
+.fa-user-o, .fa-lightbulb-o, .fa-heart-o {
+    font-size: 50px;
+}
+/* Progresso das habilidades*/
+.progress{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+/* Borda do progresso */
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 2px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading 1.8s linear forwards;
+}
+/* Borda interna */
+.progress .progress-value{
+    width: 85%;
+    height: 85%;
+    border-radius: 50%;
+    border: 0px;
+    font-size: 32px;
+    line-height: 125px;
+    text-align: center;
+    position: absolute;
+    top: 7.5%;
+    left: 7.5%;
+}
+/* Cor da progress-bar PHP */
+.progress.php .progress-bar{
+    border-color: #000;
+}
+/* Cor da procentagem PHP */
+.progress.php .progress-value{
+    color: #000;
+}
+/* Velocidade e porcentagem da transissão PHP */
+.progress.php .progress-left .progress-bar{
+    animation: loading-php 1.5s linear forwards 1.8s;
+}
+/* Cor da progress-bar C# */
+.progress.csharp .progress-bar{
+    border-color: #000;
+}
+/* Cor da procentagem C# */
+.progress.csharp .progress-value{
+    color: #000;
+}
+/* Velocidade e porcentagem da transissão C# */
+.progress.csharp .progress-left .progress-bar{
+    animation: loading-csharp 1.5s linear forwards 1.8s;
+}
+/* Cor da progress-bar MySql */
+.progress.mysql .progress-bar{
+    border-color: #000;
+}
+/* Cor da procentagem MySql */
+.progress.mysql .progress-value{
+    color: #000;
+}
+/* Velocidade e porcentagem da transissão MySql */
+.progress.mysql .progress-left .progress-bar{
+    animation: loading-mysql 1s linear forwards 1.8s;
+}
+/* Cor da progress-bar JAVA */
+.progress.java .progress-bar{
+    border-color: #000;
+}
+/* Cor da procentagem JAVA */
+.progress.java .progress-value{
+    color: #000;
+}
+/* Velocidade e porcentagem da transissão JAVA */
+.progress.java .progress-left .progress-bar{
+    animation: loading-java 1.2s linear forwards 1.8s;
+}
+/* Loading padrão lado direito */
+@keyframes loading{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+/* Loading PHP */
+@keyframes loading-php{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+/* 79% C# */
+@keyframes loading-csharp{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(125deg);
+        transform: rotate(125deg);
+    }
+}
+/* 75% MySql */
+@keyframes loading-mysql{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+/* 72% JAVA */
+@keyframes loading-java{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(72deg);
+        transform: rotate(72deg);
+    }
+}
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}
+/* Projetos */
+#projects{
+    padding: 100px 0 20px 0; 
+    background: #f3f3f4;
+}
+
+.projects {
+    padding: 30px 0 40px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Dimenssão das imagens dos projetos */
+.dm {
+    max-width: 100%;
+    max-height: 400px;
+    position: relative;
+}
+/* Linha divisória */
+.hr-projects {
+    padding: 0px;
+    margin-top: 100px;
+    border: 1px solid red;
+}
+
+.cor-detalhes {
+    color: #00ff80;
+}
+
+/* Linha divisória */
+.hr-state {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #e4e4e4;
+}
+
+/* Contato */
+#contact {
+    padding: 100px 0 20px 0; 
+    background: #676a6c;
+}
+h1 {
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 600;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif, 'arial';
+    font-weight: 400;
+    font-size: 20px;
+    color: #9b9b9b;
+    line-height: 1.5;
+}
+
+/* ///// inputs /////*/
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+    font-size: 0.75em;
+    color: #999;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px){
+    .styled-input {
+        width:100%;
+    }
+}
+
+.styled-input label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.styled-input.wide { 
+    width: 650px;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 4px;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+    float: right;
+    padding: 7px 35px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: #4b8cfb;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+              0 2px 10px 0 rgba(0,0,0,0.07);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+    transform: translateY(1px);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+              0 1px 1px 0 rgba(0,0,0,0.09);
+}
+
+@media (max-width: 768px) {
+    .submit-btn {
+        width:100%;
+        float: none;
+        text-align:center;
+    }
+}
+
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+} 
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
